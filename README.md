@@ -7,7 +7,7 @@
   <h3 align="center">KatV5</h3>
 
   <p align="center">
-    An Welcomer Discord Bot With Other Function
+    An Muti Function Discord bot 
     <br/>
     <br/>
     <a href="https://github.com/XxlyitemXx/KatV5-Main">View Demo</a>
