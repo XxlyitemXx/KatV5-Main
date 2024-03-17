@@ -73,10 +73,15 @@ pip install discord.py
 pip install - - - - - - -
 ```
 
-4. Enter your Discord Token in `config.ini`
+4. Enter your Configs in `config.ini`
 
 ```PY
-Token = "YOUR TOKEN"
+discord_owner_id=
+discord_bot_token=
+gemini_api_key=
+on_member_remove_channel=
+on_member_join_channel=
+twitch_channel=
 ```
 
 ## Usage
