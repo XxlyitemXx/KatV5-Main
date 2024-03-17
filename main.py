@@ -14,7 +14,8 @@ async def on_message(message):
         return
     if message.content.startswith("!help"):
         await message.channel.send("Check Your DM!")
-        dm = 
+        member = message.author
+        dm = member.create_dm()
 
 @bot.event
 async def on_ready():
