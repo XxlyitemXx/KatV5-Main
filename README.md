@@ -73,7 +73,7 @@ pip install discord.py
 pip install - - - - - - -
 ```
 
-4. Enter your Discord Token in `config.py`
+4. Enter your Discord Token in `config.ini`
 
 ```PY
 Token = "YOUR TOKEN"
