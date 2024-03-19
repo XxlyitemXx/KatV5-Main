@@ -15,7 +15,8 @@ async def on_message(message):
     if message.content.startswith("!help"):
         await message.channel.send("Check Your DM!")
         member = message.author
-        dm = member.create_dm()
+        dm = await member.create_dm()
+        await dm.send(f"idk")
 
 @bot.event
 async def on_ready():
@@ -37,5 +38,10 @@ async def on_member_remove(member):
     channel = bot.get_channel(config.ON_REMOVE_CHANNEL)
     members = member.mention
     await channel.send(f"GoodBye {members} We Hope, we will see you again!")
+
+
+
+
+
 
 @bot.run(config.DISCORD_TOKEN)
