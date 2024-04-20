@@ -116,7 +116,6 @@ Distributed under the MIT License. See [LICENSE](https://github.com/XxlyitemXx/K
 
 ## Authors
 
-* **Katherines Yukii** - *Comp Sci Student* - [Katherines Yukii](https://github.com/XxlyitemXx) - *Built KatV5*
 
 ## Acknowledgements
 
